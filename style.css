@@ -1,0 +1,180 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/bentley.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header h2{
+    position: absolute;
+    left: 17.4%;
+    top: 4%;
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+}
+
+header h3{
+    color: #C59042;
+    position: absolute;
+    left: 17.4%;
+    top: 8.8%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+header nav ul{
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+    top: 46px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+header nav ul li span{
+    padding: 9px 38px;
+    border: 1.5px #C59042 solid;
+}
+
+header h1{
+    position: absolute;
+    width: 48vw;
+    height: 8vh;
+    left: 25vw;
+    top: 40vh;
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+header footer{
+    text-align: center;
+    padding-top: 93vh;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+.firstsection{
+    padding: 20px;
+    height: 80vh;
+    padding-top: 50px;
+}
+
+.firstsection > p{
+    text-align: center;
+    color: #3C3C3C;
+    padding: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.firstsection > div{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.firstsection img{
+    width: 36vw;
+    height: 85vh;
+}
+
+.firstsection > div h2{
+    width: 23%;
+    padding: 2px 30px 2px 5px;
+    border-left: 1px solid #C59042;
+    color: #1E2E3E;
+    font-family: 'Criteria CF';
+    font-style: normal;
+    max-height: 240px;
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.05em;
+}
+
+.firstsection div h5{
+    transform: rotate(-90deg);
+    margin-top: 40px;
+    display: block;
+    margin-right:-23px ;
+}
+
+.secondsection{
+    padding-top: 40vh;
+    background-color: #1E2E3E;
+}
+
+.secondsection h2{
+    font-family: 'Criteria CF';
+    font-style: normal;
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.secondsection > div{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.secondsection >div >div{
+    max-width: 50%;
+    padding: 5% 3% 5% 15% ;
+    color: white;
+}
+
+.secondsection p{
+    padding: 20px;
+}
+
