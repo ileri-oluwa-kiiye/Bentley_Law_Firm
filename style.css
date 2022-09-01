@@ -144,7 +144,7 @@ header footer{
 }
 
 .secondsection{
-    padding-top: 40vh;
+    padding-top: 23%;
     background-color: #1E2E3E;
 }
 
@@ -321,4 +321,25 @@ header footer{
     align-items: center;
     justify-content: center;
 
+}
+
+
+.footer{
+    background-color: #1E2E3E;
+    color: white;
+    padding: 13vh 20vh; 
+}
+
+.footer>div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.footer span{
+    color: #C59042;
+}
+
+.footer>div>div{
+    padding: 10px 5vw;
 }
