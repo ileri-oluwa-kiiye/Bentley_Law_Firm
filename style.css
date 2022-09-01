@@ -178,3 +178,54 @@ header footer{
     padding: 20px;
 }
 
+
+.thirdsection #fixedimages img{
+    margin-right: 12px;
+    z-index: 10;
+}
+
+.thirdsection #maincontent{
+    background-color: #C59042;
+    z-index: 1;
+    color: white;
+    position: absolute;
+    right: 0px;
+    padding: 16%;
+    margin: 10vh 0px;
+}
+
+.thirdsection #maincontent h2{
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.thirdsection #maincontent h4{
+    margin: 10px 0px 8px 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.thirdsection #maincontent p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    }
+
+.thirdsection #fixedimages{
+    z-index: 2;
+    clear: both;
+    padding: 25vh 0px;
+}
+
+.thirdsection #fixedimages #focus{
+    z-index: 10000;
+}
