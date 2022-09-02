@@ -327,7 +327,7 @@ header footer{
 .footer{
     background-color: #1E2E3E;
     color: white;
-    padding: 13vh 20vh; 
+    padding: 5vh 20vh; 
 }
 
 .footer>div{
@@ -338,8 +338,35 @@ header footer{
 
 .footer span{
     color: #C59042;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .footer>div>div{
     padding: 10px 5vw;
+}
+
+.footer>div{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+}
+
+.footer>footer#footer{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    padding-left: 15%;
+}
+
+
+#footer span{
+    position: absolute;
+    right: 5vw;
 }
