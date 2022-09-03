@@ -327,7 +327,7 @@ header footer{
 .footer{
     background-color: #1E2E3E;
     color: white;
-    padding: 5vh 20vh; 
+    padding: 7vh 20vh; 
 }
 
 .footer>div{
@@ -368,6 +368,9 @@ header footer{
 
 #footer span{
     position: absolute;
-    right: 5vw;
+    right: 17vw; 
 }
 
+#footer span a{
+    padding: 15px 10px;
+}
