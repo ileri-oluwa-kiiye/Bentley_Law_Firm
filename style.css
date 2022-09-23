@@ -57,6 +57,7 @@ header h1{
     position: relative;
     margin: auto;
     top: 35vh;
+    max-width: 700px;
     font-family: 'Criteria CF';
     font-style: normal;
     font-weight: 700;
@@ -90,14 +91,18 @@ header nav {
 }
 
 
-header nav ul li{
-    display: inline;
-    padding: 10px 1vw;
-}
+
 
 header nav ul li span{
     padding: 9px 38px;
     border: 1.5px #C59042 solid;
+}
+
+@media screen and (max-width:1440) {
+    header nav ul li{
+        display: inline;
+        padding: 10px 1vw;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -111,4 +116,9 @@ header nav ul li span{
     header nav{
         display: none;
     }
+}
+
+header nav ul li{
+    display: inline;
+    padding: 10px 2vw;
 }
