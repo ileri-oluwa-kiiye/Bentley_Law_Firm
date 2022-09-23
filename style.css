@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+/*--------------------Header-----------------------*/
+
+header{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url(images/bentley.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header h2{
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+}
+
+header h3{
+    color: #C59042;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+header div#hero{
+    position: absolute;
+    left: 17.4%;
+    top: 4%;
+}
+
+header h1{
+    position: relative;
+    margin: auto;
+    top: 40vh;
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+header footer{
+    position: relative;
+    bottom: 28%;
+    text-align: center;
+    padding-top: 93vh;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+@media screen and (max-width: 1000px) {
+    header nav{
+        display: none;
+    }
+}
