@@ -49,14 +49,14 @@ header h3{
 
 header div#hero{
     position: absolute;
-    left: 17.4%;
+    left: 13.4%;
     top: 4%;
 }
 
 header h1{
     position: relative;
     margin: auto;
-    top: 40vh;
+    top: 35vh;
     font-family: 'Criteria CF';
     font-style: normal;
     font-weight: 700;
@@ -68,14 +68,43 @@ header h1{
 
 header footer{
     position: relative;
-    bottom: 28%;
+    bottom: 0vh;
     text-align: center;
-    padding-top: 93vh;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
+}
+
+header nav {
+    display: inline-block;
+    position: relative;
+    top:6%;
+    left: 36%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+header nav ul li{
+    display: inline;
+    padding: 10px 1vw;
+}
+
+header nav ul li span{
+    padding: 9px 38px;
+    border: 1.5px #C59042 solid;
+}
+
+@media screen and (min-width: 1000px) {
+    header h1{
+        position: relative;
+        top: 40vh;
+    }
 }
 
 @media screen and (max-width: 1000px) {
