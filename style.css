@@ -105,10 +105,15 @@ header nav ul li span{
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 1024px) {
     header h1{
         position: relative;
         top: 40vh;
+    }
+
+    header nav {
+        position: relative;
+        left: 29%;
     }
 }
 
