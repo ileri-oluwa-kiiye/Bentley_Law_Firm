@@ -91,6 +91,15 @@ header nav {
 }
 
 
+header nav a:hover{
+    display: inline-block;
+    color: #C59042;
+    border-bottom: 1px solid #C59042;
+}
+
+header nav ul li span:hover{
+    color:#C59042;
+}
 
 
 header nav ul li span{
@@ -98,7 +107,71 @@ header nav ul li span{
     border: 1.5px #C59042 solid;
 }
 
+header nav ul li{
+    display: inline;
+    padding: 10px 2vw;
+}
+
+
+
+/*---------------------The first section---------------*/
+.firstsection section{
+    margin-top: -36px;
+    margin-bottom: 30px;
+    color: white;
+    position: relative;
+    padding-left: calc(50% - 80px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1440) {
+    /*All screens less than 1441px*/
     header nav ul li{
         display: inline;
         padding: 10px 1vw;
@@ -106,6 +179,7 @@ header nav ul li span{
 }
 
 @media screen and (max-width: 1024px) {
+    /*All screens less than 1025px*/
     header h1{
         position: relative;
         top: 40vh;
@@ -118,12 +192,9 @@ header nav ul li span{
 }
 
 @media screen and (max-width: 1000px) {
+    /*All screens less than 1001...Tablet and phone screens*/
     header nav{
         display: none;
     }
 }
 
-header nav ul li{
-    display: inline;
-    padding: 10px 2vw;
-}
