@@ -16,6 +16,19 @@ li{
     list-style-type: none;
 }
 
+body{
+    max-width: 100%;
+}
+
+
+.flexdesktop{
+    display: flex;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
 /*--------------------Header-----------------------*/
 
 header{
@@ -117,23 +130,95 @@ header nav ul li{
 /*---------------------The first section---------------*/
 .firstsection section{
     margin-top: -36px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     color: white;
     position: relative;
     padding-left: calc(50% - 80px);
 }
 
+.firstsection  p{
+    max-width: 500px;
+    margin: auto;
+    color: #3C3C3C;
+    padding: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.firstsection{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.firstsection div h2{
+    max-width: 400px;
+    height: fit-content;
+    padding: 2px 30px 2px 5px;
+    border-left: 1px solid #C59042;
+    color: #1E2E3E;
+    font-family: 'Criteria CF';
+    font-style: normal;
+    margin-top: 5%;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+}
+
+.firstsection div h5{
+    transform: rotate(-90deg);
+    display: block;
+    margin-top: 35px;
+    width: 90px;
+    margin-right: -27px;
+}
+
+.firstsection div.flexdesktop{
+    margin: 3%;
+    justify-content: space-around;
+}
+.firstsection div.flex{
+    margin: 1% 5%;
+}
 
 
+/*-----------------------Second section-----------------*/
+.secondsection{
+    margin-top: -23%;
+    padding-top: 23%;
+    background-color: #1E2E3E;
+    color: white;
+}
 
 
+.secondsection h2{
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    max-width: 800px;
+    padding: 3% 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.secondsection >div div{
+    padding-left: 10vw;
+}
 
-
-
-
-
-
+.secondsection div.flexdesktop{
+    padding-top: 5%;
+    justify-items: flex-end;
+}
+.secondsection >div div p{
+    padding: 4% 1%;
+}
 
 
 
@@ -176,6 +261,7 @@ header nav ul li{
         display: inline;
         padding: 10px 1vw;
     }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -189,6 +275,13 @@ header nav ul li{
         position: relative;
         left: 29%;
     }
+
+    .secondsection{
+        margin-top: -13%;
+        padding-top: 13%;
+        background-color: #1E2E3E;
+    }
+    
 }
 
 @media screen and (max-width: 1000px) {
@@ -196,5 +289,36 @@ header nav ul li{
     header nav{
         display: none;
     }
+    .flexdesktop{
+        display: block;
+    }
+
+    .firstsection div h2{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 35px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .secondsection{
+        padding: 5%;
+        margin-top: -23%;
+        padding-top: 23%;
+        padding-bottom: 0%;
+        background-color: #1E2E3E;
+    }
+
+    .secondsection h2{
+        font-size: 34px;
+    }
+
+    .secondsection >div div{
+        padding:3% 5%;
+        padding-bottom: 30px;
+    }
+
+    
+
 }
 
