@@ -217,7 +217,7 @@ header nav ul li{
     justify-items: flex-end;
 }
 .secondsection >div div p{
-    padding: 4% 1%;
+    padding-bottom: 4%;
 }
 
 
@@ -302,7 +302,6 @@ header nav ul li{
     }
 
     .secondsection{
-        padding: 5%;
         margin-top: -23%;
         padding-top: 23%;
         padding-bottom: 0%;
@@ -313,7 +312,7 @@ header nav ul li{
         font-size: 34px;
     }
 
-    .secondsection >div div{
+    .secondsection >div div p{
         padding:3% 5%;
         padding-bottom: 30px;
     }
