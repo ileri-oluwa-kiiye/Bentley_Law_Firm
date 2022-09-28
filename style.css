@@ -203,7 +203,7 @@ header nav ul li{
     text-align: center;
     letter-spacing: 0.05em;
     max-width: 800px;
-    padding: 3% 0px;
+    padding: 70px 0px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -217,7 +217,7 @@ header nav ul li{
     justify-items: flex-end;
 }
 .secondsection >div div p{
-    padding-bottom: 4%;
+    padding-bottom: 5%;
 }
 
 
@@ -318,6 +318,8 @@ header nav ul li{
     .secondsection >div div p{
         padding:3% 5%;
         padding-bottom: 30px;
+        font-size: 15px;
+        max-width: 70%;
     }
 
     
