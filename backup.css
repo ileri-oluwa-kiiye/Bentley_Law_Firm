@@ -26,47 +26,7 @@ a{
     display: block;
 }
 
-.firstsection{
-    padding: 20px;
-    height: 80vh;
-    padding-top: 50px;
-}
 
-
-
-.firstsection > div{
-    margin-top: 60px;
-    margin-bottom: 60px;
-    display: flex;
-    justify-content: center;
-}
-
-.firstsection img{
-    width: 36vw;
-    height: 85vh;
-}
-
-.firstsection div h2{
-    width: 23%;
-    padding: 2px 30px 2px 5px;
-    border-left: 1px solid #C59042;
-    color: #1E2E3E;
-    font-family: 'Criteria CF';
-    font-style: normal;
-    max-height: 240px;
-    margin-top: 5%;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 58px;
-    letter-spacing: 0.05em;
-}
-
-.firstsection div h5{
-    transform: rotate(-90deg);
-    margin-top: 40px;
-    display: block;
-    margin-right:-23px ;
-}
 
 .secondsection{
     padding-top: 23%;
