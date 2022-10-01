@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="author" content="Ilerioluwakiiye Abolade">
         <meta name="keywords" content="Bentley Law Firm">
-        <meta name="description" content="A page for Bentley Law Firm">
+        <meta name="description" content="Bentley Law Firm Landing Page by Ilerioluwakiiye">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Criteria CF">
@@ -18,7 +18,7 @@
                 <h2>Bentley</h2>
                 <h3>LAW FIRM</h3>
             </div>
-            <nav>
+            <nav class="hiddenonmobile">
                 <ul>
                     <li><a href="">Case Studies</a></li>
                     <li><a href="">Why Us</a></li>
@@ -77,41 +77,47 @@
 
         <section>
             <article class="thirdsection">
-                <div id="maincontent">
-                    <h2>Our process</h2>
-                    <h4>FREE INITIAL CONSULTATION</h4>
-                    <p>
-                        One of our expert solicitors will<br> contact you to understand your<br>  potential 
-                        claims in further details and<br>  provide you with a free initial<br>  consultation.
-                    </p>
-                </div>
-                <div id="fixedimages">
-                    <img src="images/slide1.png" alt="consultation process">
-                    <img src="images/slide2.png" alt="consultation process">
-                    <img src="images/slide3.png" alt="consultation process" id="focus">
+                <div class="flexdesktop">
+                    <div id="maincontent">
+                        <h2>Our process</h2>
+                        <h4>FREE INITIAL CONSULTATION</h4>
+                        <p>
+                            One of our expert solicitors will<br> contact you to understand your<br>  potential 
+                            claims in further details and<br>  provide you with a free initial<br>  consultation.
+                        </p>
+                    </div>
+                    <div id="fixedimages" class="hiddenonmobile flex">
+                        <img src="images/slide1.png" alt="consultation process">
+                        <img src="images/slide2.png" alt="consultation process">
+                        <img src="images/slide3.png" alt="consultation process" id="focus">
+                    </div>
                 </div>
             </article>
             <article class="attorneys">
-                <div>
-                    <h2>
-                        Our Attorneys
-                    </h2>
-                    <p>
-                        Elaborately selected team of professionals<br> specializing in different<br> areas of law.
-                    </p>
+                <div class="flexdesktop">
+                    <div class="first">
+                        <h2>
+                            Our Attorneys
+                        </h2>
+                        <p>
+                            Elaborately selected team of professionals<br> specializing in different<br> areas of law.
+                        </p>
+                    </div>
+                    <div class="flexdesktop">
+                        <li>
+                            <img src="images/mark.png" alt="A portrait of Mark Hughes">
+                            <p>Mark Hughes<span>CEO/Manager</span></p>
+                        </li>
+                        <li>
+                            <img src="images/paul.png" alt="A portrait of Paul Hughes">
+                            <p>Paul Hughes<span>Finance Lawyer</span></p>
+                        </li>
+                        <li>
+                            <img src="images/david.png" alt="A portrait of David Mark">
+                            <p>David Mark<span>Corporate Lawyer</span></p>
+                        </li>
+                    </div>
                 </div>
-                <li>
-                    <img src="images/mark.png" alt="A portrait of Mark Hughes">
-                    <p>Mark Hughes<span>CEO/Manager</span></p>
-                </li>
-                <li>
-                    <img src="images/paul.png" alt="A portrait of Paul Hughes">
-                    <p>Paul Hughes<span>Finance Lawyer</span></p>
-                </li>
-                <li>
-                    <img src="images/david.png" alt="A portrait of David Mark">
-                    <p>David Mark<span>Corporate Lawyer</span></p>
-                </li>
 
             </article>
         </section>
@@ -119,11 +125,13 @@
 
 
         <section class="locations">
-            <h2>Our Locations</h2>
-            <p>
-                We serve different cities across the<br> whole country
-            </p>
-            <ul>
+            <div class="first">
+                <h2>Our Locations</h2>
+                <p>
+                    We serve different cities across the<br> whole country
+                </p>
+            </div>
+            <ul class="flexdesktop">
                 <li>
                     <img src="images/london.png" alt="The city of London">
                     <p>London</p>
@@ -199,8 +207,8 @@
 
 
         <footer class="footer">
-            <div>
-                <div>
+            <div class="flexdesktop">
+                <div class="hiddenonmobile">
                     <img src="images/logo.png" alt="bentley logo">
                 </div>
                 <div>

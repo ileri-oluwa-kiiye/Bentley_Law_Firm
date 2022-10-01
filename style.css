@@ -16,6 +16,9 @@ li{
     list-style-type: none;
 }
 
+
+
+
 body{
     max-width: 100%;
 }
@@ -221,12 +224,207 @@ header nav ul li{
 }
 
 
+
+
 /*---------------------Third section---------*/
 
 
+.thirdsection{
+    margin: 10% 0px;
+    width: 100%;
+}
+
+.thirdsection .flexdesktop{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
 
 
+.thirdsection #maincontent{
+    position: relative;
+    background-color: #C59042;
+    color: white;
+    padding: 7% 15%;
+    margin: 4% 0%;
+    margin-left: -200px;
+}
 
+.thirdsection #maincontent h2{
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.thirdsection #maincontent h4{
+    margin: 10px 0px 8px 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+
+.thirdsection #maincontent p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+}
+
+.thirdsection #fixedimages{
+    z-index: 1;
+    margin-right: 00px;
+    max-width: 60%;
+}
+
+.thirdsection #fixedimages img{
+    margin-right: 10px;
+    height: 470px;
+    width: auto;
+}
+
+/*--------------------------Attorneys----------*/
+
+.attorneys .flexdesktop{
+    justify-content: flex-end;
+}
+
+.attorneys{
+    margin: 5% 0% 11% 5%;
+}
+.attorneys div p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #1E234E;
+}
+
+.attorneys li{
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    padding: 0px 10px;
+}
+.attorneys li span{
+    color: #C59042;
+    display: block;
+    font-size: 0.7em;
+}
+
+.attorneys div h2{
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: 0.05em;
+    color: #1E2E3E;
+}
+
+/*----------------------------Locations-----------*/
+
+.locations{
+    background-color: #1E2E3E;
+    color: white;
+    padding: 8% 10%;
+}
+
+.locations .first h2, .first p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.locations h2{
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.05em;
+}
+
+
+.locations >p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+}
+
+.locations ul.flexdesktop li{
+    padding-right: 10px;
+}
+
+.locations ul.flexdesktop{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------------footer------*/
+
+
+.footer{
+    background-color: #1E2E3E;
+    color: white;
+    padding: 7vh 20vh; 
+}
+
+.footer>div{
+    padding-bottom: 5%;
+}
+
+.footer span{
+    color: #C59042;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer div div{
+    padding-top: 30px;
+}
+
+.footer>div{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+}
+
+.footer>footer#footer{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    padding-left: 15%;
+}
+
+
+#footer span{
+    position: absolute;
+    right: 17vw; 
+}
+
+#footer span a{
+    padding: 15px 10px;
+}
 
 
 
@@ -274,6 +472,23 @@ header nav ul li{
         top: 40vh;
     }
 
+    .thirdsection #fixedimages img{
+        margin-right: 10px;
+        height: 370px;
+        width: auto;
+    }
+
+    .attorneys .flexdesktop .flexdesktop{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+    .thirdsection #maincontent{
+        padding: 5% 6%;
+        margin: 4% 0%;
+        margin-left: -200px;
+    }
     header nav {
         position: relative;
         left: 29%;
@@ -294,6 +509,11 @@ header nav ul li{
     }
     .flexdesktop{
         display: block;
+    }
+
+
+    .hiddenonmobile{
+        display: none;
     }
 
     .firstsection div h2{
@@ -322,7 +542,33 @@ header nav ul li{
         max-width: 70%;
     }
 
-    
+    .thirdsection #maincontent{
+        width: 80%;
+        padding: 10%;
+        margin: 0%;
+        text-align: center;
+    }
+
+    .attorneys{
+        margin: 5%;
+        align-items: center;
+    }
+
+    .attorneys div.first h2, div.first p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+
 
 }
 
+
+
+@media screen and (max-width: 600px){
+.attorneys .flexdesktop .flexdesktop{
+    display: block;
+    margin-left: calc(50% - 120px);
+}
+
+}
