@@ -405,7 +405,7 @@ header nav ul li{
 }
 
 .footer .flexdesktop div{
-    padding-right: 40px;
+    padding: 10px 10% ;
 }
 
 .footer>div{
@@ -429,8 +429,11 @@ header nav ul li{
 
 
 
-#footer span a{
-    padding: 20px;
+
+
+#footer span a img{
+    width: 40px 35px;
+    padding: 0px 20px;
 }
 
 /*---------------------------------Contactus-----------------*/
