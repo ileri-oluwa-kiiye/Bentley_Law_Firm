@@ -142,7 +142,7 @@ header nav ul li{
 
 /*---------------------The first section---------------*/
 .firstsection section{
-    margin-top: -36px;
+    margin-top: -46px;
     margin-bottom: 80px;
     color: white;
     position: relative;
@@ -202,6 +202,7 @@ header nav ul li{
 
 /*-----------------------Second section-----------------*/
 .secondsection{
+    padding: 5%;
     margin-top: -23%;
     padding-top: 23%;
     background-color: #1E2E3E;
@@ -376,6 +377,7 @@ header nav ul li{
 
 .locations ul.flexdesktop li{
     padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 .locations ul.flexdesktop{
