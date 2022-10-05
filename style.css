@@ -3,6 +3,16 @@
     margin: 0%;
 }
 
+input{
+    outline: none;
+    caret-color: inherit;
+}
+
+input::placeholder{
+    color: inherit;
+    opacity: 1;
+}
+
 img{
     max-width: 100%;
 }
@@ -383,9 +393,6 @@ header nav ul li{
     padding: 7vh 20vh; 
 }
 
-.footer>div{
-    padding-bottom: 5%;
-}
 
 .footer span{
     color: #C59042;
@@ -395,6 +402,10 @@ header nav ul li{
 
 .footer div div{
     padding-top: 30px;
+}
+
+.footer .flexdesktop div{
+    padding-right: 40px;
 }
 
 .footer>div{
@@ -417,14 +428,68 @@ header nav ul li{
 }
 
 
-#footer span{
-    position: absolute;
-    right: 17vw; 
-}
 
 #footer span a{
-    padding: 15px 10px;
+    padding: 20px;
 }
+
+/*---------------------------------Contactus-----------------*/
+
+.contact{
+    color: #1E2E3E;
+    padding: 10%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact h2{
+    font-family: 'Criteria CF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+
+
+
+.contact input{
+    display: block;
+    border: none;
+    border-bottom: 1.5px solid #1E2E3E;
+    color: #1E2E3E;
+    padding: 30px 30% 2px 0px;
+    margin: 10px 30px 10px 0px;
+}
+
+.contact ::placeholder{
+    color: #1E2E3E;
+    padding: 10px;
+}
+
+.contact .differentinput {
+    margin: 20px 0px;
+}
+.contact .differentinput input{
+    display: inline;
+    margin: 3px;
+    padding: 0%;
+    width: min-content;
+}
+
+.contact div.button{
+    width: fit-content;
+    margin: auto;
+}
+
+.contact button{
+    border: 1px solid grey;
+    background-color: #C59042;
+    padding: 8px 19px;
+    margin: 30px;
+}
+
+
 
 
 
@@ -559,6 +624,9 @@ header nav ul li{
         margin-bottom: 20px;
     }
 
+    .contact input{
+        margin: 0px;
+    }
 
 
 }
