@@ -27,8 +27,6 @@ li{
 }
 
 
-
-
 body{
     max-width: 100%;
 }
@@ -488,10 +486,22 @@ header nav ul li{
 }
 
 .contact button{
+    color: white;
+    font-weight:500;
+    font-size: 1em;
     border: 1px solid grey;
     background-color: #C59042;
     padding: 8px 19px;
     margin: 30px;
+}
+
+.contact button:hover{
+    background-color: #1E2E3E;
+}
+
+.contact button:active{
+    background-color: black;
+
 }
 
 
